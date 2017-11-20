@@ -1,0 +1,10 @@
+"use strict";
+var index_1 = require('./index');
+exports.RTOComponentRoutes = [
+    {
+        path: 'rto',
+        component: index_1.RTOComponent
+    }
+];
+
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC9kYXNoYm9hcmQvcnRvL3J0by5yb3V0ZXMudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUVBLHNCQUE2QixTQUFTLENBQUMsQ0FBQTtBQUUxQiwwQkFBa0IsR0FBWTtJQUMxQztRQUNDLElBQUksRUFBRSxLQUFLO1FBQ1gsU0FBUyxFQUFFLG9CQUFZO0tBQ3ZCO0NBQ0QsQ0FBQyIsImZpbGUiOiJhcHAvZGFzaGJvYXJkL3J0by9ydG8ucm91dGVzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgUm91dGUgfSBmcm9tICdAYW5ndWxhci9yb3V0ZXInO1xuXG5pbXBvcnQgeyBSVE9Db21wb25lbnQgfSBmcm9tICcuL2luZGV4JztcblxuZXhwb3J0IGNvbnN0IFJUT0NvbXBvbmVudFJvdXRlczogUm91dGVbXSA9IFtcblx0e1xuXHRcdHBhdGg6ICdydG8nLFxuXHRcdGNvbXBvbmVudDogUlRPQ29tcG9uZW50XG5cdH1cbl07XG4iXX0=
