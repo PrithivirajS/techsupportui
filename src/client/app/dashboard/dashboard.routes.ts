@@ -19,7 +19,7 @@ export const DashboardRoutes: Route[] = [
         ...RTOComponentRoutes,
         ...CourierComponentRoutes,
         ...CancelledComponentRoutes,
-	    	...BlankPageRoutes
+        ...BlankPageRoutes
     	]
   	}
 ];

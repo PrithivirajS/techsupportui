@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
 	moduleId: module.id,
-    selector: 'courier',
+    selector: 'cancelled',
     templateUrl: './cancelled.component.html'
 })
 
