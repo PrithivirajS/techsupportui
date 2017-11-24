@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
 	moduleId: module.id,
-    selector: 'cancelled',
+    selector: 'oms-cancelled',
     templateUrl: './cancelled.component.html'
 })
 
