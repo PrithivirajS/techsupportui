@@ -4,7 +4,7 @@ import { RTOComponent } from './index';
 
 export const RTOComponentRoutes: Route[] = [
 	{
-		path: 'rto',
+		path: 'oms-rto',
 		component: RTOComponent
 	}
 ];

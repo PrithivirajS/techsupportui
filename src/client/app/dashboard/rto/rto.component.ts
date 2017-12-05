@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
 	moduleId: module.id,
-    selector: 'techsupport-rto',
+    selector: 'oms-rto',
     templateUrl: './rto.component.html'
 })
 

@@ -3,7 +3,7 @@ import { CancelledComponent } from './index';
 
 export const CancelledComponentRoutes: Route[] = [
   {
-    path: 'cancelled',
+    path: 'oms-cancelled',
     component: CancelledComponent
   }
 ];
