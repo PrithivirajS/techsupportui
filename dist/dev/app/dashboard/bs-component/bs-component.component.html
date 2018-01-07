@@ -6,15 +6,16 @@
 					<span class="card-title">Force Assign</span>
 				</div>
 				<div class="card-block">
-					<form>
+					<form name="forceassign"  ng-submit="submit()">
 						<div class="form-group">
 							<label>Upload the CSV file</label>
-							<input type="file">
+							<input name="some1" type="sometype" ng-model='!.csv' type="file"  accept=".csv,text/csv,application/vnd.ms-excel" >
 						</div>
-						<button type="submit" class="btn btn-secondary">Submit</button>
+						<button ng-disabled="!form.$dirty" type="submit" class="btn btn-secondary">Submit</button>
 					</form>
 				</div>
 			</div>
-
+			<button (click)="onget()">get request</button><br/>
+			<p>{{getData}}</p>
 	</div>
 </div>

@@ -8,5 +8,4 @@ import { BSComponentComponent } from './bsComponent.component';
     declarations: [BSComponentComponent],
     exports: [BSComponentComponent]
 })
-
-export class BSComponentModule { }
+export class BSComponentModule {}

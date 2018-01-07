@@ -31,6 +31,7 @@ export function serveDocs() {
 
   server.use(
     Config.APP_BASE,
+
     express.static(resolve(process.cwd(), Config.DOCS_DEST))
   );
 
@@ -44,14 +45,16 @@ export function serveDocs() {
  */
 export function serveCoverage() {
   let server = express();
+  var cors = require('cors');
+
   let compression = require('compression');
       server.use(compression());
+      
 
   server.use(
     Config.APP_BASE,
     express.static(resolve(process.cwd(), 'coverage'))
   );
-
   server.listen(Config.COVERAGE_PORT, () =>
     openResource('http://localhost:' + Config.COVERAGE_PORT + Config.APP_BASE)
   );
@@ -63,8 +66,11 @@ export function serveCoverage() {
 export function serveProd() {
   let root = resolve(process.cwd(), Config.PROD_DEST);
   let server = express();
+  var cors = require('cors');
+
   let compression = require('compression');
       server.use(compression());
+      server.use(cors());
 
   server.use(Config.APP_BASE, express.static(root));
 
